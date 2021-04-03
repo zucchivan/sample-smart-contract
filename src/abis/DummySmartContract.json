@@ -1,0 +1,225 @@
+{
+  "contractName": "DummySmartContract",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/ivan/projects/dummy-smart-contract/src/contracts/DummySmartContract.sol\":\"DummySmartContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/ivan/projects/dummy-smart-contract/src/contracts/DummySmartContract.sol\":{\"keccak256\":\"0xb49f83e2895ab039fcf9d82edc83a16896578d0eea59a076ef5f8dbb693adb9a\",\"urls\":[\"bzz-raw://e4e2da472c30c2e657ee127213f44e848baadde097bc861b90fc21abaca4f720\",\"dweb:/ipfs/QmVX6mbk9RvwrAMUQtcMtNP4c69DjmJ9KPXeAGezrd25wB\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280601481526020017f44756d6d7920536d61727420436f6e74726163740000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b610186806101166000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a72315820ee8c9cae4079b3f26c20586dac653bcb75b39c913794a75dc08b5762d35cf14a64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a72315820ee8c9cae4079b3f26c20586dac653bcb75b39c913794a75dc08b5762d35cf14a64736f6c63430005100032",
+  "sourceMap": "25:77:0:-;;;56:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;25:77;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:77:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "25:77:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:77:0;;;;;;;;;;;;;;;;;;;56:43;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;56:43:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ncontract DummySmartContract {\n\tstring public name = \"Dummy Smart Contract\";\n}",
+  "sourcePath": "/home/ivan/projects/dummy-smart-contract/src/contracts/DummySmartContract.sol",
+  "ast": {
+    "absolutePath": "/home/ivan/projects/dummy-smart-contract/src/contracts/DummySmartContract.sol",
+    "exportedSymbols": {
+      "DummySmartContract": [
+        5
+      ]
+    },
+    "id": 6,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 5,
+        "linearizedBaseContracts": [
+          5
+        ],
+        "name": "DummySmartContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 4,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 5,
+            "src": "56:43:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "56:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "44756d6d7920536d61727420436f6e7472616374",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "77:22:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_14d5ccd14e8ef0e9b3386b15bc74d029502517a4a8670a9ecf8fba0c2e07dac8",
+                "typeString": "literal_string \"Dummy Smart Contract\""
+              },
+              "value": "Dummy Smart Contract"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 6,
+        "src": "25:77:0"
+      }
+    ],
+    "src": "0:102:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/home/ivan/projects/dummy-smart-contract/src/contracts/DummySmartContract.sol",
+      "exportedSymbols": {
+        "DummySmartContract": [
+          5
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            5
+          ],
+          "name": "DummySmartContract",
+          "scope": 6
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "name",
+              "scope": 5,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 2,
+                "name": "ElementaryTypeName",
+                "src": "56:6:0"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "44756d6d7920536d61727420436f6e7472616374",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"Dummy Smart Contract\"",
+                  "value": "Dummy Smart Contract"
+                },
+                "id": 3,
+                "name": "Literal",
+                "src": "77:22:0"
+              }
+            ],
+            "id": 4,
+            "name": "VariableDeclaration",
+            "src": "56:43:0"
+          }
+        ],
+        "id": 5,
+        "name": "ContractDefinition",
+        "src": "25:77:0"
+      }
+    ],
+    "id": 6,
+    "name": "SourceUnit",
+    "src": "0:102:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xF422031F504080c8E4F727Cc81A36dC2A36442C4",
+      "transactionHash": "0x9983d1b2aade9e9f246450d7d821f16a474f604d935072efd1f48aa04fa35855"
+    }
+  },
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-04-02T22:05:35.784Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
